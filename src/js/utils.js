@@ -213,7 +213,7 @@ export const getLanguage = function () {
     } else if (languageType === 'en') {
         message = require('../i18n/en-GB');
     } else {
-        message = require('../i18n/en-GB');
+        message = require('../i18n/zh-CN');
     }
     return message;
 };
